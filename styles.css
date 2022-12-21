@@ -1,0 +1,42 @@
+body {
+    padding: 0;
+    margin: 0;
+    background-color: hsl(212, 45%, 89%);
+    font-family: 'Open Sans', sans-serif;
+}
+main {
+    display: grid;
+    height: 100vh;
+
+}
+.container {
+    max-width: 15em;
+    /* height: 30em; */
+    align-self: center;
+    justify-self: center;
+    padding: 1em 1em 2em 1em;
+    background-color: white;
+    border-radius: 1em;
+    display: grid;
+    justify-items: center;
+    text-align: center;
+    gap: 1.5em;
+}
+img {
+    width: 15em;
+    height: 15em;
+    border-radius: 1em;
+}
+
+.text-1 {
+max-width: 38ch;
+color: hsl(218, 44%, 22%);
+font-weight: 700;
+
+}
+
+.text-2 {
+    max-width: 38ch;
+    color: hsl(220, 15%, 55%);
+    font-size: 15px;
+}
